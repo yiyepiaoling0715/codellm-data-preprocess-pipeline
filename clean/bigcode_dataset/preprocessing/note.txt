@@ -1,0 +1,20 @@
+python -c "from huggingface_hub.hf_api import HfFolder; HfFolder.save_token('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')"
+
+
+{
+'content': Value(dtype='string', id=None), 
+'avg_line_length': Value(dtype='float64', id=None), 
+'max_line_length': Value(dtype='int64', id=None), 
+'alphanum_fraction': Value(dtype='float64', id=None), 
+'licenses': Sequence(feature=Value(dtype='string', id=None), length=-1, id=None), 
+'repository_name': Value(dtype='string', id=None), 
+'path': Value(dtype='string', id=None), 
+'size': Value(dtype='int64', id=None), 
+'lang': Value(dtype='string', id=None)
+}
+
+
+
+features: ['content', 'avg_line_length', 'max_line_length', 'alphanum_fraction', 'licenses', 
+'repository_name', 'path', 'size', 'lang', 'nl_ratio', 'fertility_ratio', 'index', 'secrets', 
+'has_secrets', 'number_secrets', 'new_content', 'modified', 'references'],

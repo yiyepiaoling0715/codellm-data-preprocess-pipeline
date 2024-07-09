@@ -1,0 +1,83 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "content": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "avg_line_length": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "max_line_length": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "alphanum_fraction": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "licenses": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "repository_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "path": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "size": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "lang": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "nl_ratio": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "fertility_ratio": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "secrets": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "has_secrets": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "number_secrets": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "new_content": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "modified": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "references": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

@@ -1,0 +1,10 @@
+
+include:
+  - project: 'ep/portal/cicd-tools'
+    ref: v1
+    file:
+      - 'gitlabci/precommit/precommit.yaml'
+
+pre-commit:
+  extends: .ep-ci-pre-commit
+  stage: build
