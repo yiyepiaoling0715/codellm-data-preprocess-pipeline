@@ -1,10 +1,21 @@
 代码大模型领域,目前各大公司开源的都是模型,鲜少对数据处理过程有提及;但是数据处理是LLM应用中不可或缺的一环,因此我们决定开源我们的数据处理流程,以供大家参考.
 
+处理流程图见 file/预训练数据处理架构.png
+
+## 关键技术点:
+    FIM,
+
+    tree_sitter,
+
+    文件拓扑图,
+    
+    函数依赖解析
 
 ## 预训练代码数据清洗
-cd shells/
-
-bash multi_process_pipeline.sh
+```
+    cd shells/
+    bash multi_process_pipeline.sh
+```
 ### 脚本中4大模块
 #### python ../repo_graphs/multi_dedup_file.py 
 
@@ -31,7 +42,7 @@ bash multi_process_pipeline.sh
 
 #### python -u $workdir/clean/bigcode_dataset/pii/main_process.py 
 
-    pii脱敏
+    基于bigdata处理逻辑，pii脱敏
 
 
 ## 微调数据清洗脚本
