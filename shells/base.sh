@@ -39,10 +39,10 @@ create_read_write_of_repos_path(){
         # # # # # #lpai
         # export base_src=/lpai/volumes/sc-ep-ulan/llm_data/0516
         export base_src=xxx
-        export lpai_ep_dirpath=xxx
-        export lpai_ep1_dirpath=xxx
+        export dirpath_1=xxx
+        export dirpath_2=xxx
     
-        export src_dirpath_list="$lpai_ep_dirpath,lpai_ep1_dirpath"
+        export src_dirpath_list="$dirpath_1,dirpath_2"
 
         DATE_STR="${data-$(date +%Y%m%d)}"
         output_dirpath_of_graph=/lpai/volumes/sc-ep-lf/llm_data_clean/${DATE_STR}/repo_graph_repos_with_calc

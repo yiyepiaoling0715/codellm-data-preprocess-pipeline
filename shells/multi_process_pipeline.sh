@@ -41,7 +41,7 @@ echo "dataset_path_after_dedup=$dataset_path_after_dedup"
 
 # nohup_log_dirpath=$workdir/shells/nohups
 # nohup_log_dirpath=$LOG_DIR
-nohup_log_dirpath=/lpai/output/logs/logs
+nohup_log_dirpath=/tmp/output/logs/logs
 nohup_after_dedup_log_path=$nohup_log_dirpath/nohup_after_dedup.log
 nohup_repo_graph_log_path=$nohup_log_dirpath/nohup_repo_graphs.log
 nohup_pii_log_path=$nohup_log_dirpath/nohup_pii.log
@@ -58,7 +58,7 @@ function_2_filepath_list_dict_jsonpath=$depend_parser_dirpath/function_2_filepat
 filepath_2_filepath_list_dict_jsonpath=$depend_parser_dirpath/filepath_2_filepath_list_dict.json
 
 
-
+#src_dirpath_list  根目录列表，靠,切分，不同人物的原始的代码仓库在每个根目录下面
 
 echo "开始执行multi_dedup_file...,整理为可去重文件形式"
 echo -e "nohup_multi_dedup_file_log_path=\n$nohup_multi_dedup_file_log_path"
