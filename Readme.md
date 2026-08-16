@@ -1,3 +1,5 @@
+
+
 代码大模型领域,目前各大公司开源的都是模型,鲜少对数据处理过程有提及;但是数据处理是LLM应用中不可或缺的一环,因此我们决定开源我们的数据处理流程,以供大家参考.
 
 处理流程图见 file/预训练数据处理架构.png
@@ -62,7 +64,7 @@ bash testcase_debug.sh
 
 ## 一些辅助工具
 ### 解压打包的仓库文件
-bash assist/unzip_repo.sh
+bash shells/assists/unzip_repo.sh
 
 cd pys/assist
 ### 求最佳阈值,抑制幻觉
